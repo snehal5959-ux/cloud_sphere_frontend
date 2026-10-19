@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CloudSphere is a student-led community exploring cloud, DevOps, and modern web technology.">
+  <title>CloudSphere — Build What's Next</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement"><span class="pulse"></span> CLOUDSPHERE COMMUNITY · LEARN TOGETHER, BUILD TOGETHER <a href="#events">Explore events <span aria-hidden="true">↗</span></a></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="CloudSphere home"><span class="brand-mark">C</span><span>cloud<span class="brand-light">sphere</span><small>STUDENT TECH COMMUNITY</small></span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav id="main-nav" class="main-nav"><a class="active" href="#home">Home</a><a href="#tracks">Learning paths</a><a href="#events">Events</a><a href="#resources">Resources</a><a class="nav-cta" href="#join">Join the community <span>↗</span></a></nav>
+  </header>
+  <main>
+    <section id="home" class="hero section-wrap">
+      <div class="hero-copy"><div class="eyebrow"><span class="eyebrow-dot"></span> YOUR NEXT CHAPTER STARTS HERE</div>
+        <h1>Curiosity in.<br><span class="gradient-text">Possibility out.</span></h1>
+        <p class="hero-lead">A student-powered space to explore cloud technology, build real projects, and turn “what if?” into “what's next?”</p>
+        <div class="hero-actions"><a class="button button-primary" href="#tracks">Explore learning paths <span>↗</span></a><a class="button button-quiet" href="#events"><span class="play-icon">▶</span> See what's happening</a></div>
+        <div class="hero-proof"><div class="avatar-stack"><span>A</span><span>M</span><span>R</span><span>+</span></div><p><strong>Made for curious minds</strong><br><span>Beginners welcome. Always.</span></p></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract illustration of a connected cloud technology network">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+        <div class="planet"><div class="planet-core">☁</div><span class="planet-ring"></span></div>
+        <div class="float-card card-code"><span class="mini-icon purple">⌘</span><div><strong>Build something</strong><small>One commit at a time</small></div><span class="tiny-check">✓</span></div>
+        <div class="float-card card-cloud"><span class="mini-icon mint">↗</span><div><strong>Cloud ready</strong><small>Learn by doing</small></div></div>
+        <div class="float-card card-status"><span class="status-dot"></span><div><strong>Ideas in motion</strong><small>Community status: active</small></div></div>
+        <span class="spark spark-a">✳</span><span class="spark spark-b">✦</span><span class="spark spark-c">·</span>
+      </div>
+      <div class="hero-bottom"><span>LEARN · CREATE · SHARE</span><span class="scroll-cue">SCROLL TO EXPLORE <span>↓</span></span></div>
+    </section>
+
+    <section class="stats-strip" aria-label="Community focus"><div><strong>01</strong><span>Learn the fundamentals</span></div><div><strong>02</strong><span>Build hands-on projects</span></div><div><strong>03</strong><span>Grow with a community</span></div><div><strong>04</strong><span>Share what you discover</span></div></section>
+
+    <section id="tracks" class="section section-wrap"><div class="section-heading"><div><div class="eyebrow">PICK YOUR PATH</div><h2>Big ideas. <span class="gradient-text">Practical skills.</span></h2></div><p>Start with what interests you. Follow a path, try a mini project, and keep building from there.</p></div>
+      <div class="track-grid">
+        <article class="track-card track-cloud"><div class="track-top"><span class="track-icon">☁</span><span class="track-number">PATH / 01</span></div><div class="track-graphic cloud-graphic"><span>☁</span><i></i><b></b></div><h3>Cloud computing</h3><p>Understand how apps live online with servers, storage, networking, and cloud platforms.</p><div class="tag-row"><span>Cloud basics</span><span>AWS</span><span>Linux</span></div><a class="text-link" href="#resources" data-track="Cloud computing">Explore path <span>↗</span></a></article>
+        <article class="track-card track-devops"><div class="track-top"><span class="track-icon">⟳</span><span class="track-number">PATH / 02</span></div><div class="track-graphic devops-graphic"><span>↗</span><span>↘</span><span>↗</span><i></i></div><h3>DevOps & automation</h3><p>Learn the workflow behind reliable releases, repeatable deployments, and teamwork.</p><div class="tag-row"><span>Git</span><span>CI/CD</span><span>Docker</span></div><a class="text-link" href="#resources" data-track="DevOps & automation">Explore path <span>↗</span></a></article>
+        <article class="track-card track-web"><div class="track-top"><span class="track-icon">⌘</span><span class="track-number">PATH / 03</span></div><div class="track-graphic web-graphic"><div class="browser-bar"><i></i><i></i><i></i></div><div class="browser-lines"><b></b><b></b><span></span></div></div><h3>Web development</h3><p>Turn ideas into useful interfaces with the building blocks of the modern web.</p><div class="tag-row"><span>HTML & CSS</span><span>JavaScript</span><span>UI</span></div><a class="text-link" href="#resources" data-track="Web development">Explore path <span>↗</span></a></article>
+      </div>
+    </section>
+
+    <section id="events" class="section events-section"><div class="section-wrap"><div class="section-heading"><div><div class="eyebrow">MAKE IT REAL</div><h2>What's <span class="gradient-text">happening.</span></h2></div><p>Sample community events to show how an events section can work. Replace them with your real club schedule.</p></div>
+      <div class="event-toolbar"><div class="filter-tabs" role="group" aria-label="Filter events"><button class="filter-tab selected" data-filter="all">All events</button><button class="filter-tab" data-filter="workshop">Workshops</button><button class="filter-tab" data-filter="meetup">Meetups</button><button class="filter-tab" data-filter="challenge">Challenges</button></div><span class="event-count" id="event-count">3 events</span></div>
+      <div class="event-list" id="event-list">
+        <article class="event-card" data-category="workshop"><div class="event-date"><strong>08</strong><span>NOV</span></div><div class="event-main"><span class="event-type">WORKSHOP · BEGINNER</span><h3>Your first cloud deployment</h3><p>Go from a local project to a website people can visit. Bring your laptop and curiosity.</p><div class="event-meta"><span>◷ 60 min</span><span>⌁ Online / campus</span></div></div><div class="event-side"><span class="event-pill pill-purple">Hands-on</span><button class="arrow-button event-details" data-title="Your first cloud deployment" data-description="A beginner-friendly walkthrough of static website hosting, Linux basics, and the path from GitHub to a cloud server.">↗</button></div></article>
+        <article class="event-card" data-category="meetup"><div class="event-date date-mint"><strong>14</strong><span>NOV</span></div><div class="event-main"><span class="event-type">COMMUNITY · ALL LEVELS</span><h3>Build night: ideas to prototypes</h3><p>Meet other builders, share a small idea, and leave with your next step planned.</p><div class="event-meta"><span>◷ 90 min</span><span>⌁ Campus studio</span></div></div><div class="event-side"><span class="event-pill pill-mint">Bring an idea</span><button class="arrow-button event-details" data-title="Build night: ideas to prototypes" data-description="A collaborative meetup to brainstorm, find teammates, and turn small ideas into achievable prototypes.">↗</button></div></article>
+        <article class="event-card" data-category="challenge"><div class="event-date date-orange"><strong>21</strong><span>NOV</span></div><div class="event-main"><span class="event-type">MINI CHALLENGE · ALL LEVELS</span><h3>The 1-page portfolio sprint</h3><p>Make a simple personal portfolio, publish it, and share what you learned.</p><div class="event-meta"><span>◷ 2 hours</span><span>⌁ Anywhere</span></div></div><div class="event-side"><span class="event-pill pill-orange">Make & share</span><button class="arrow-button event-details" data-title="The 1-page portfolio sprint" data-description="Build a single-page portfolio with HTML and CSS, publish it, and share the result with the community. No framework required.">↗</button></div></article>
+      </div><p class="demo-note">These are illustrative sample events, not confirmed real events.</p>
+    </div></section>
+
+    <section id="resources" class="section section-wrap"><div class="section-heading"><div><div class="eyebrow">YOUR TOOLKIT</div><h2>Small steps. <span class="gradient-text">Strong foundations.</span></h2></div><p>A few reliable starting points to keep learning after you leave this page.</p></div>
+      <div class="resource-grid"><a class="resource-card" href="https://docs.github.com/en/get-started" target="_blank" rel="noreferrer"><span class="resource-icon">⌘</span><span class="resource-label">VERSION CONTROL</span><h3>GitHub basics</h3><p>Learn repositories, commits, and collaboration.</p><span class="resource-arrow">↗</span></a><a class="resource-card" href="https://developer.mozilla.org/en-US/docs/Learn_web_development" target="_blank" rel="noreferrer"><span class="resource-icon mint-icon">⌁</span><span class="resource-label">WEB DEVELOPMENT</span><h3>Learn the web</h3><p>Practice HTML, CSS, and JavaScript fundamentals.</p><span class="resource-arrow">↗</span></a><a class="resource-card" href="https://docs.aws.amazon.com/" target="_blank" rel="noreferrer"><span class="resource-icon orange-icon">☁</span><span class="resource-label">CLOUD COMPUTING</span><h3>AWS documentation</h3><p>Explore official guides for cloud services.</p><span class="resource-arrow">↗</span></a></div>
+    </section>
+
+    <section id="join" class="join-section section-wrap"><div class="join-glow"></div><div class="join-content"><div class="eyebrow"><span class="eyebrow-dot"></span> YOUR PEOPLE ARE HERE</div><h2>Build your next<br><span class="gradient-text">thing with us.</span></h2><p>Learning is better when you don't have to figure everything out alone. Start small, ask questions, and make progress together.</p><a class="button button-primary" href="https://github.com/" target="_blank" rel="noreferrer">Start building on GitHub <span>↗</span></a><p class="join-footnote">Demo frontend · No sign-up form or backend connected</p></div><div class="join-orbit" aria-hidden="true"><span>LEARN</span><span>BUILD</span><span>SHARE</span><div>✳</div></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">C</span><span>cloud<span class="brand-light">sphere</span><small>STUDENT TECH COMMUNITY</small></span></a><p>Made for the curious. Built for what's next.</p><div class="footer-links"><a href="#tracks">Paths</a><a href="#events">Events</a><a href="#resources">Resources</a><a href="#home">Back to top ↑</a></div><span class="copyright">© <span id="year"></span> CloudSphere · Demo project</span></footer>
+
+  <dialog id="event-dialog" class="event-dialog"><button class="dialog-close" aria-label="Close dialog">×</button><span class="eyebrow">EVENT PREVIEW</span><h2 id="dialog-title">Event title</h2><p id="dialog-description"></p><p class="dialog-note">This is a sample event card. Connect a real registration service if you want to accept sign-ups.</p><button class="button button-primary dialog-ok">Got it</button></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
